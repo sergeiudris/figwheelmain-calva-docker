@@ -1,11 +1,8 @@
 #!/bin/bash
 
 dock() {
-    sudo xhost +
     docker build -t tmp.figwheelmain-calva-docker .
     docker run  --rm \
-                --env DISPLAY=${DISPLAY} \
-                -v /tmp/.X11-unix:/tmp/.X11-unix \
                 --name fcd \
                 -it \
                 -p 7888:7888 \
