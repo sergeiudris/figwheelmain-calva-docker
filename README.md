@@ -3,6 +3,9 @@
 - an example of running a figwheel-main from Docker with Calva
 - a temporary repo for the issue https://github.com/BetterThanTomorrow/calva/issues/296
 
+<br/>
+<br/>
+
 - steps taken:
   - create a figwheel project
     - `lein new figwheel-main hello-world.core -- --reagent +deps`
@@ -35,7 +38,10 @@
       - if error, you forgot to open `localhost:9500`
       - if you see `#object[hello_world$core$get_app_element]` - you are in
   - now you can read-eval-print in you app
-    
+
+<br/>
+<br/>
+
 - disclaimer
   - personally I use shadow-cljs
   - because of the [`npm modules`](https://shadow-cljs.github.io/docs/UsersGuide.html#_using_npm_packages) amazing feature   
