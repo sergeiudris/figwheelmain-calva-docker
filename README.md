@@ -4,7 +4,6 @@
 - a temporary repo for the issue https://github.com/BetterThanTomorrow/calva/issues/296
 
 <br/>
-<br/>
 
 - steps taken:
   - create a figwheel project
@@ -39,7 +38,6 @@
       - if you see `#object[hello_world$core$get_app_element]` - you are in
   - now you can read-eval-print in you app
 
-<br/>
 <br/>
 
 - disclaimer
