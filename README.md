@@ -43,7 +43,7 @@
 - disclaimer
   - personally I use shadow-cljs
   - because of the [`npm modules`](https://shadow-cljs.github.io/docs/UsersGuide.html#_using_npm_packages) amazing feature   
-  - I run in from Docker like in this [example](https://github.com/seeris/playground.ged/blob/master/ged/f#L38)
+  - running from Docker is straight forward, just open the ports
   - had no issues or problems with dev/prod builds with shadow-cljs
     - including :chrome-extension target
 
