@@ -1,4 +1,4 @@
-# tmp.figwheel-calva-docker
+# figwheel-calva-docker
 
 - an example of running a figwheel-main from Docker with Calva
 - a temporary repo for the issue https://github.com/BetterThanTomorrow/calva/issues/296
